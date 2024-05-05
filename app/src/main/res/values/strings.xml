@@ -2,4 +2,5 @@
     <string name="app_name">Ejemploapp</string>
     <string name ="button_text">Tirar dado</string>
     <string name ="text_initial">Para iniciar haga click en el boton de abajo</string>
+    <string name="text_win">Ganaste</string>
 </resources>

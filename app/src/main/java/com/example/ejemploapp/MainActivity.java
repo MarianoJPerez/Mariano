@@ -3,6 +3,8 @@ package com.example.ejemploapp;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +21,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void tirarDado(View view) {
+       
        Log.i("tirar-dato", "Ganaste");
+        LinearLayout resultados = findViewById(R.id.resultados);
+       TextView resultado = new TextView( this);
+       resultado.setText(R.string.text_win);
+        resultados.addView(resultado);
 
     }
 }
