@@ -21,18 +21,19 @@
 
     <Button
         android:id="@+id/button"
+android:onClick="tirarDado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
         android:text="@string/button_text"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintBottom_toTopOf="@+id/ListaResultados"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/ListaResultados"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
